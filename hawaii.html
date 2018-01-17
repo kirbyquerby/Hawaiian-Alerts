@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Hawaii Alert System</title>
+    <script src="hawaii.js"></script>
+    <link rel="stylesheet" type="text/css" href="hawaii.css">
+</head>
+
+<body>
+    <h1>Welcome to Hawaii Alert System</h1>
+
+    <h2>Before you take action, please solve the simple puzzle to prove you are not a robot.</h2>
+
+    <img src="norobot.png" onclick="robotCheck()" id="captchaInit">
+
+    <div id="checkPlaceholder"></div>
+
+    <div id="buttonholder" style="display:none">
+        <h1> You've successfully been verified as a human! Please choose a button.</h1>
+        <button id="drillbutton" onclick="doDrill()">Send alert for a drill</button>
+        <button id="realbutton" onclick="doReal()">Send real alert (CAUTION!)</button>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
